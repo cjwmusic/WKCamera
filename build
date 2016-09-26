@@ -1,0 +1,7 @@
+make clean
+echo '--------------clean 成功-----------'
+make
+echo '--------------make 成功------------'
+#st-flash erase
+st-flash --reset write main.bin 0x8000000 
+echo '--------------下载成功-------------'
