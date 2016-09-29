@@ -1,2 +1,13 @@
 # Mac
 .DS_Store
+
+lib/*o
+lib/*.a
+
+main.bin
+main.elf
+main.hex
+
+.idea/
+CMakeLists.txt
+

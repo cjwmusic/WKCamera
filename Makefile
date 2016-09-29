@@ -8,10 +8,11 @@ PROJ_NAME=main
 # that's it, no need to change anything below this line!
 
 ###################################################
-
+# 指定编译工具
 CC=arm-none-eabi-gcc
 OBJCOPY=arm-none-eabi-objcopy
 
+# 编译配置项
 CFLAGS  = -g -O2 -Wall -TSTM32F429ZI_FLASH.ld
 CFLAGS += -mlittle-endian -mthumb -mcpu=cortex-m4 -mthumb-interwork
 CFLAGS += -mfloat-abi=hard -mfpu=fpv4-sp-d16
